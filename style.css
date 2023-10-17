@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 6fr 2fr;
+}
+.birinci{
+    background-color: green;
+}
+.ikinci{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    background-color: gold;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.left div:first-child{
+    background-color: blue;
+}
+.left div:last-child{
+    background-color: aqua;
+}
+.right{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.right div:first-child{
+    background-color: hotpink;
+}
+.right div:last-child{
+    background-color: green;
+}
+.ucuncu{
+    background-color: red;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
